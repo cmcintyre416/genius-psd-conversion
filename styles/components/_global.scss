@@ -1,0 +1,50 @@
+$color__font--black: #212121;
+$color__header--black: #222221;
+$color__global--green: #86bc42;
+$color__headerText--black: #242c42;
+$color__background--grey: #f0f2f7;
+$color__border--grey: #e1e1e1;
+
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    color: $color__font--black;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 40px 0;
+
+    .preTitle, .mainTitle, .magazineIcon {
+        margin: 10px 0;
+    }
+
+    .preTitle {
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+
+    .mainTitle {
+        font-size: 3.5rem;
+    }
+
+    .magazineIcon:before {
+        content: "";
+        width: 20px;
+        height: 1px;
+        border-bottom: 1px solid green;
+    }
+
+}
+

@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script defer src='https://use.fontawesome.com/releases/v5.0.4/js/all.js'></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
     <title>Genius</title>
 </head>
 
@@ -14,9 +19,625 @@
     <!-- the header starts here -->
 
     <header>
-        <div class="wrapper">
-            <div></div>
+        <div class="preHeader">
+            <div class="preHeader__wrapper wrapper">
+                <div class="preHeader__contact">
+                    <div class="preHeader__phone">
+                        <i class="fas fa-phone"></i>
+                        <span class="preHeader__phoneNumber">(541) 754-3010</span>
+                    </div>
+                    <div class="preHeader__email">
+                        <i class="far fa-envelope"></i>
+                        <span class="preHeader__emailAdress">contact@com.vn</span>
+                    </div>
+                </div>
+                <div class="preHeader__logo">
+                    <img src="assets/logo.svg" alt="">
+                </div>
+                <div class="preHeader__signIn">
+                    <span class="preHeader__register"><a class="preHeader__signInLink" href="#">Register</a></span><span class="preHeader__divider">|</span><span class="preHeader__login"><a class="preHeader__signInLink" href="#">Login</a></span>
+                </div>
+            </div>
+        </div>
+        <nav class="navHeader">
+            <div class="navHeader__wrapper wrapper">
+                <ul class="navHeader__list">
+                    <li class="navHeader__li">
+                        <a class="navHeader__link" href="">Home</a>
+                    </li>
+                    <li class="navHeader__li">
+                        <a class="navHeader__link" href="">Pages</a>
+                    </li>
+                    <li class="navHeader__li">
+                        <a class="navHeader__link" href="">Cources</a>
+                    </li>
+                    <li class="navHeader__li">
+                        <a class="navHeader__link" href="">Features</a>
+                    </li>
+                    <li class="navHeader__li">
+                        <a class="navHeader__link" href="">Shop</a>
+                    </li>
+                    <li class="navHeader__li">
+                        <a class="navHeader__link" href="">Events</a>
+                    </li>
+                    <li class="navHeader__li ">
+                        <a class="navHeader__link navHeader__link--green" href=""><i class="fas fa-shopping-cart"></i></a>
+                        <a class="navHeader__link" href=""><i class="fas fa-search"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="heroHeader">
+            <div class="heroHeader__wrapper wrapper">
+                <h1 class="heroHeader__h1">Developing Skills</h1>
+                <p class="heroHeader__paragraph">Quisque consequat justo sed sapien mollis, at placerat ligula commodo. Proin finibus risus quis arcu aliquam egestas. Morbi molestie elit sed ligula volutpat cursus. Sed mollis porttitor luctus.</p>
+                <button class="heroHeader__button">Start Learning Now!</button>
+            </div>
         </div>
     </header>
+
+    <!-- the header ends here -->
+
+    <!-- the main starts here -->
+
+    <main>
+
+        <!-- the trending course section starts here -->
+
+        <section class="trending">
+            <div class="trending__wrapper wrapper">
+                <div class="trending__title title">
+                    <h3 class="trending__preTitle preTitle">Touch them if you want</h3>
+                    <h2 class="trending__mainTitle mainTitle">Trending Courses</h2>
+                    <img class="trending__magazineIcon magazineIcon" src="assets/icon_magazine.svg" alt="">
+                    <!-- pseudo before and after lines added on svg -->
+                </div>
+                <nav class="trending__nav">
+                    <ul class="trending__list">
+                        <li class="trending__category trending__category--active">
+                            <a href="" class="trending__categoryLink">All</a>
+                        </li>
+                        <li class="trending__category">
+                            <a href="" class="trending__categoryLink">Film</a>
+                        </li>
+                        <li class="trending__category">
+                            <a href="" class="trending__categoryLink">Music</a>
+                        </li>
+                        <li class="trending__category">
+                            <a href="" class="trending__categoryLink">Photography</a>
+                        </li>
+                        <li class="trending__category">
+                            <a href="" class="trending__categoryLink">Design</a>
+                        </li>
+                        <li class="trending__category">
+                            <a href="" class="trending__categoryLink">Business</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="trending__courses">
+                    <div class="trending__course">
+                        <img src="assets/image_bartender.jpg" alt="" class="trending__categoryImage">
+                        <div class="trending__categoryContent">
+                            <h4 class="trending__categoryTitle">Course in Expert bartender and modern cocktail</h4>
+                            <div class="trending__teacher">
+                                <div class="trending__teacherImage"></div>
+                                <div class="trending__teacherInfo">
+                                    <p class="trending__teacherName">Teacher Name</p>
+                                    <p class="trending__view"><a href="" class="trending__viewLink">View Profile</a></p>
+                                </div>
+                            </div>
+                            <div class="trending__courseFooter">
+                                <div class="trending__counters">
+                                    <i class="fas fa-users"></i>
+                                    <span class="trending__studentCount">75</span>
+                                    <i class="fas fa-comments"></i>
+                                    <span class="trending__commentCount">24</span>
+                                </div>
+                                <span class="trending__price">Free</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trending__course">
+                        <img src="assets/image_fashionStyling.jpg" alt="" class="trending__categoryImage">
+                        <div class="trending__categoryContent">
+                            <h4 class="trending__categoryTitle">Fashion Styling and Photography course</h4>
+                            <div class="trending__teacher">
+                                <div class="trending__teacherImage"></div>
+                                <div class="trending__teacherInfo">
+                                    <p class="trending__teacherName">Teacher Name</p>
+                                    <p class="trending__view">
+                                        <a href="" class="trending__viewLink">View Profile</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="trending__courseFooter">
+                                <div class="trending__counters">
+                                    <i class="fas fa-users"></i>
+                                    <span class="trending__studentCount">75</span>
+                                    <i class="fas fa-comments"></i>
+                                    <span class="trending__commentCount">24</span>
+                                </div>
+                                <span class="trending__price">Free</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trending__course">
+                        <img src="assets/image_management.jpg" alt="" class="trending__categoryImage">
+                        <div class="trending__categoryContent">
+                            <h4 class="trending__categoryTitle">Management Development Program</h4>
+                            <div class="trending__teacher">
+                                <div class="trending__teacherImage"></div>
+                                <div class="trending__teacherInfo">
+                                    <p class="trending__teacherName">Teacher Name</p>
+                                    <p class="trending__view">
+                                        <a href="" class="trending__viewLink">View Profile</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="trending__courseFooter">
+                                <div class="trending__counters">
+                                    <i class="fas fa-users"></i>
+                                    <span class="trending__studentCount">75</span>
+                                    <i class="fas fa-comments"></i>
+                                    <span class="trending__commentCount">24</span>
+                                </div>
+                                <span class="trending__price">Free</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trending__course">
+                        <img src="assets/image_english.jpg" alt="" class="trending__categoryImage">
+                        <div class="trending__categoryContent">
+                            <h4 class="trending__categoryTitle">Learn English with web-sites</h4>
+                            <div class="trending__teacher">
+                                <div class="trending__teacherImage"></div>
+                                <div class="trending__teacherInfo">
+                                    <p class="trending__teacherName">Teacher Name</p>
+                                    <p class="trending__view">
+                                        <a href="" class="trending__viewLink">View Profile</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="trending__courseFooter">
+                                <div class="trending__counters">
+                                    <i class="fas fa-users"></i>
+                                    <span class="trending__studentCount">75</span>
+                                    <i class="fas fa-comments"></i>
+                                    <span class="trending__commentCount">24</span>
+                                </div>
+                                <span class="trending__price">Free</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trending__course">
+                        <img src="assets/image_graphicDesign.jpg" alt="" class="trending__categoryImage">
+                        <div class="trending__categoryContent">
+                            <h4 class="trending__categoryTitle">Digital Graphic Design Fundamentals</h4>
+                            <div class="trending__teacher">
+                                <div class="trending__teacherImage"></div>
+                                <div class="trending__teacherInfo">
+                                    <p class="trending__teacherName">Teacher Name</p>
+                                    <p class="trending__view">
+                                        <a href="" class="trending__viewLink">View Profile</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="trending__courseFooter">
+                                <div class="trending__counters">
+                                    <i class="fas fa-users"></i>
+                                    <span class="trending__studentCount">75</span>
+                                    <i class="fas fa-comments"></i>
+                                    <span class="trending__commentCount">24</span>
+                                </div>
+                                <span class="trending__price">Free</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trending__course">
+                        <img src="assets/image_fashionLuxury.jpg" alt="" class="trending__categoryImage">
+                        <div class="trending__categoryContent">
+                            <h4 class="trending__categoryTitle">Fashion & Luxury Goods Management Course</h4>
+                            <div class="trending__teacher">
+                                <div class="trending__teacherImage"></div>
+                                <div class="trending__teacherInfo">
+                                    <p class="trending__teacherName">Teacher Name</p>
+                                    <p class="trending__view">
+                                        <a href="" class="trending__viewLink">View Profile</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="trending__courseFooter">
+                                <div class="trending__counters">
+                                    <i class="fas fa-users"></i>
+                                    <span class="trending__studentCount">75</span>
+                                    <i class="fas fa-comments"></i>
+                                    <span class="trending__commentCount">24</span>
+                                </div>
+                                <span class="trending__price">Free</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trending__course">
+                        <img src="assets/image_emails.jpg" alt="" class="trending__categoryImage">
+                        <div class="trending__categoryContent">
+                            <h4 class="trending__categoryTitle">Write Professional Emails in English</h4>
+                            <div class="trending__teacher">
+                                <div class="trending__teacherImage"></div>
+                                <div class="trending__teacherInfo">
+                                    <p class="trending__teacherName">Teacher Name</p>
+                                    <p class="trending__view">
+                                        <a href="" class="trending__viewLink">View Profile</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="trending__courseFooter">
+                                <div class="trending__counters">
+                                    <i class="fas fa-users"></i>
+                                    <span class="trending__studentCount">75</span>
+                                    <i class="fas fa-comments"></i>
+                                    <span class="trending__commentCount">24</span>
+                                </div>
+                                <span class="trending__price">Free</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trending__course">
+                        <img src="assets/image_digitalAcceleration.jpg" alt="" class="trending__categoryImage">
+                        <div class="trending__categoryContent">
+                            <h4 class="trending__categoryTitle">Master CLass - Digital Acceleration Course</h4>
+                            <div class="trending__teacher">
+                                <div class="trending__teacherImage"></div>
+                                <div class="trending__teacherInfo">
+                                    <p class="trending__teacherName">Teacher Name</p>
+                                    <p class="trending__view">
+                                        <a href="" class="trending__viewLink">View Profile</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="trending__courseFooter">
+                                <div class="trending__counters">
+                                    <i class="fas fa-users"></i>
+                                    <span class="trending__studentCount">75</span>
+                                    <i class="fas fa-comments"></i>
+                                    <span class="trending__commentCount">24</span>
+                                </div>
+                                <span class="trending__price">Free</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- the trending course section ends here -->
+
+         <!-- the gallery starts here -->
+
+        <section class="gallery">
+            <div class="gallery__wrapper wrapper">
+                <div class="gallery__title title">
+                    <h3 class="gallery__preTitle preTitle">Lorem Ipsum Dolor</h3>
+                    <h2 class="gallery__mainTitle mainTitle">See Photo Gallery</h2>
+                    <img class="gallery__magazineIcon magazineIcon" src="assets/icon_magazine.svg" alt="">
+                    <!-- pseudo before and after lines added on svg -->
+                </div>
+                <div class="gallery__container">
+                    <div class="gallery__imageContainer">
+                        <img src="assets/image_coffee.jpg" alt="Coffee cup sittiing on desk" class="gallery__image">
+                        <div class="gallery__plus--hover"><i class="fas fa-plus-circle"></i></div>
+                    </div>
+                    <div class="gallery__imageContainer">
+                        <img src="assets/image_paint.jpg" alt="Paint and paint brushes." class="gallery__image">
+                        <div class="gallery__plus--hover">
+                            <i class="fas fa-plus-circle"></i>
+                        </div>
+                    </div>
+                    <div class="gallery__imageContainer">
+                        <img src="assets/image_notes.jpg" alt="Field notes, phone and pens." class="gallery__image">
+                        <div class="gallery__plus--hover">
+                            <i class="fas fa-plus-circle"></i>
+                        </div>
+                    </div>
+                    <div class="gallery__imageContainer">
+                        <img src="assets/image_stickies.jpg" alt="Stickie notes sitting on desk." class="gallery__image">
+                        <div class="gallery__plus--hover">
+                            <i class="fas fa-plus-circle"></i>
+                        </div>
+                    </div>
+                    <div class="gallery__imageContainer">
+                        <img src="assets/image_workstation.jpg" alt="Workstation with computer and keyboard." class="gallery__image">
+                        <div class="gallery__plus--hover">
+                            <i class="fas fa-plus-circle"></i>
+                        </div>
+                    </div>
+                    <div class="gallery__imageContainer">
+                        <img src="assets/image_folder.jpg" alt="Folders and writing utencils." class="gallery__image">
+                        <div class="gallery__plus--hover">
+                            <i class="fas fa-plus-circle"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- this is the end of the gallery section -->
+
+        <!-- this is the start of the latest news section -->
+
+        <section class="news">
+            <div class="news__wrapper wrapper">
+                <div class="news__title">
+                    <h3 class="news__preTitle">Lorem Ipsum Dolor</h3>
+                    <h2 class="news__mainTitle">Latest News</h2>
+                    <img class="news__magazineIcon" src="assets/icon_magazine.svg" alt="">
+                    <!-- pseudo before and after lines added on svg -->
+                </div>
+                <div class="news__articleContainer">
+                    <div class="news__article">
+                        <img src="assets/image_photography.jpg" alt="Image of a phone and design book on a desk." class="news__image">
+                        <div class="news__articleContent">
+                            <h5 class="news__articleTitle">Course in Digital Photography and Photoshop</h5>
+                            <div class="news__articleInfo">
+                                <span class="news__author">By admin</span><span class="news__divider">|</span> <span class="news__date">Oct 11, 2017</span>
+                            </div>
+                            <p class="news__articleDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ea nisi recusandae, possimus similique voluptatem explicabo veniam itaque a aperiam officiis at fugiat! Veniam pariatur deserunt, expedita ratione sint natus tenetur nam ullam cupiditate dolore debitis voluptatem adipisci magnam sequi similique, quo, veritatis quia! Magni assumenda alias nesciunt voluptates vel quidem, id earum esse neque natus beatae rerum sit officia repudiandae minima amet reiciendis suscipit quis impedit ipsa dolor consequatur?</p>
+                            <button class="news__learnMore">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="news__articleContainer">
+                    <div class="news__article">
+                        <img src="assets/image_marketing.jpg" alt="Image of a phone and design book on a desk." class="news__image">
+                        <div class="news__articleContent">
+                            <h5 class="news__articleTitle">Short Courses in Marketing</h5>
+                            <div class="news__articleInfo">
+                                <span class="news__author">By admin</span>
+                                <span class="news__divider">|</span>
+                                <span class="news__date">Oct 11, 2017</span>
+                            </div>
+                            <p class="news__articleDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ea nisi recusandae, possimus similique voluptatem
+                                explicabo veniam itaque a aperiam officiis at fugiat! Veniam pariatur deserunt, expedita ratione sint natus
+                                tenetur nam ullam cupiditate dolore debitis voluptatem adipisci magnam sequi similique, quo, veritatis quia!
+                                Magni assumenda alias nesciunt voluptates vel quidem, id earum esse neque natus beatae rerum sit officia
+                                repudiandae minima amet reiciendis suscipit quis impedit ipsa dolor consequatur?</p>
+                            <button class="news__learnMore">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="news__articleContainer">
+                    <div class="news__article">
+                        <img src="assets/image_education.jpg" alt="Image of a phone and design book on a desk." class="news__image">
+                        <div class="news__articleContent">
+                            <h5 class="news__articleTitle">Award in Education and Training</h5>
+                            <div class="news__articleInfo">
+                                <span class="news__author">By admin</span>
+                                <span class="news__divider">|</span>
+                                <span class="news__date">Oct 11, 2017</span>
+                            </div>
+                            <p class="news__articleDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ea nisi recusandae, possimus similique voluptatem
+                                explicabo veniam itaque a aperiam officiis at fugiat! Veniam pariatur deserunt, expedita ratione sint natus
+                                tenetur nam ullam cupiditate dolore debitis voluptatem adipisci magnam sequi similique, quo, veritatis quia!
+                                Magni assumenda alias nesciunt voluptates vel quidem, id earum esse neque natus beatae rerum sit officia
+                                repudiandae minima amet reiciendis suscipit quis impedit ipsa dolor consequatur?</p>
+                            <button class="news__learnMore">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- this is the end of the news section -->
+
+        <!-- this is the start of the difference section -->
+
+        <section class="different">
+            <div class="different__wrapper wrapper">
+                <div class="different__title">
+                    <h3 class="different__preTitle">Lorem Ipsum Dolor</h3>
+                    <h2 class="different__mainTitle">What Makes Us Different?</h2>
+                    <img class="different__magazineIcon" src="assets/icon_magazine.svg" alt="">
+                    <!-- pseudo before and after lines added on svg -->
+                </div>
+                <div class="different__value">
+                    <img src="assets/icon_light.svg" alt="" class="different_icon">
+                    <h6 class="different__valueName">Concept</h6>
+                    <p class="different__valueDescription"></p>
+                    <div class="different_circle--absolute"></div>
+                </div>
+                <div class="different__value">
+                    <img src="assets/icon_beaker.svg" alt="" class="different_icon">
+                    <h6 class="different__valueName">Experience</h6>
+                    <p class="different__valueDescription"></p>
+                    <div class="different_circle--absolute"></div>
+                </div>
+                <div class="different__value">
+                    <img src="assets/icon_certified.svg" alt="" class="different_icon">
+                    <h6 class="different__valueName">Design</h6>
+                    <p class="different__valueDescription"></p>
+                    <div class="different_circle--absolute"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- this is the end of difference section -->
+
+        <!-- this is the start of the pricing section -->
+
+        <section class="pricing">
+            <div class="pricing__wrapper wrapper">
+                <div class="pricing__title">
+                    <h3 class="pricing__preTitle">Choose your pricing</h3>
+                    <h2 class="pricing__mainTitle">The Best Pricing We Offered</h2>
+                    <img class="pricing__magazineIcon" src="assets/icon_magazine.svg" alt="">
+                    <!-- pseudo before and after lines added on svg -->
+                </div>
+                <div class="pricing__optionContainer">
+                    <div class="pricing__priceContainer">
+                        <div class="pricing__priceTag"><span class="pricing__dollarSign">$</span><span class="pricing__number">0</span></div>
+                    </div>
+                    <div class="pricing__priceContainer">
+                        <div class="pricing__priceTag">
+                            <span class="pricing__dollarSign">$</span>
+                            <span class="pricing__number">55</span>
+                        </div>
+                    </div>
+                    <div class="pricing__priceContainer">
+                        <div class="pricing__priceTag">
+                            <span class="pricing__dollarSign">$</span>
+                            <span class="pricing__number">99</span>
+                        </div>
+                    </div>
+                    <div class="pricing__option">
+                        <h6 class="pricing__trial">Trial</h6>
+                        <p class="pricing__description">30 days free trial</p>
+                        <ul class="pricing__optionList">
+                            <li class="pricing__optionItem">One Day Trial</li>
+                            <li class="pricing__optionItem">Limited Courses</li>
+                            <li class="pricing__optionItem">Free 3 Lessons</li>
+                            <li class="pricing__optionItem">No Supporter</li>
+                            <li class="pricing__optionItem">No Ebook</li>
+                            <li class="pricing__optionItem">No Tutorial</li>
+                            <li class="pricing__optionItem">Limited Registered User</li>
+                        </ul>
+                    </div>
+                    <div class="pricing__option">
+                        <h6 class="pricing__trial">Trial</h6>
+                        <p class="pricing__description">Per month when paid annually</p>
+                        <ul class="pricing__optionList">
+                            <li class="pricing__optionItem">One Day Standard Access</li>
+                            <li class="pricing__optionItem">Limited Courses</li>
+                            <li class="pricing__optionItem">300+ Lessons</li>
+                            <li class="pricing__optionItem">Random Supporter</li>
+                            <li class="pricing__optionItem">View Only Ebook</li>
+                            <li class="pricing__optionItem">Standard Tutorial</li>
+                            <li class="pricing__optionItem">Unlimited Registered User</li>
+                        </ul>
+                    </div>
+                    <div class="pricing__option">
+                        <h6 class="pricing__trial">Trial</h6>
+                        <p class="pricing__description">Per month when paid annually</p>
+                        <ul class="pricing__optionList">
+                            <li class="pricing__optionItem">Lifetime Access</li>
+                            <li class="pricing__optionItem">Unlimited All Cources</li>
+                            <li class="pricing__optionItem">3000+ Lessons & Growing</li>
+                            <li class="pricing__optionItem">Free Supporter</li>
+                            <li class="pricing__optionItem">Preimum Ebook</li>
+                            <li class="pricing__optionItem">Unlimited Registered Tutorials</li>
+                            <li class="pricing__optionItem">Unlimited Registered User</li>
+                        </ul>
+                        <p class="pricing__choose">Choose Plan</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- this is the end of the pricing section -->
+
+    </main>
+
+    <!-- this is the end of the main section -->
+
+    <!-- this is the start of the footer -->
+
+    <footer class="footer">
+        <div class="footer__wrapper wrapper">
+            <div class="footer__block">
+                <img src="assets/logo.svg" alt="" class="footer__logo">
+                <p class="footer_geniusDescription"><span class=".footer__geniusDescription--green">Genius</span>provides broad range of learning programs and activites that's unique in itself.</p>
+                <div class="footer_checklist">
+                    <i class="fas fa-check"></i><span class="footer__checkListItem">Mountain Trekking Programs</span>
+                </div>
+                <div class="footer_checklist">
+                    <i class="fas fa-check"></i>
+                    <span class="footer__checkListItem">Inter School Compatitions</span>
+                </div>
+                <div class="footer_checklist">
+                    <i class="fas fa-check"></i>
+                    <span class="footer__checkListItem">Awards and Ceremony</span>
+                </div>
+            </div>
+            <div class="footer__block">
+                <h6 class="footer_blockTitle">Courses</h6>
+                <ul class="footer__verticalNav">
+                    <li class="footer__navItem">
+                        <i class="fas fa-angle-right"></i>
+                        <a href="" class="footer__navLink">Cources</a>
+                    </li>
+                    <li class="footer__verticalNav">
+                        <a href="" class="footer__navLink">Events</a>
+                    </li>
+                    <li class="footer__verticalNav">
+                        <a href="" class="footer__navLink">Gallery</a>
+                    </li>
+                    <li class="footer__verticalNav">
+                        <a href="" class="footer__navLink">FAQs</a>
+                    </li>
+                    <li class="footer__verticalNav">
+                        <a href="" class="footer__navLink">Blog</a>
+                    </li>
+                    <li class="footer__verticalNav">
+                        <a href="" class="footer__navLink">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__block">
+                <h6 class="footer__blockTitle">Contact Us</h6>    
+                <div class="footer__contactInfo">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p class="footer__contactParagraph">Hawkins DDR 873 Drake APA 159 Yosemite AD 19</p>
+                </div>
+                <div class="footer__contactInfo">
+                    <i class="fas fa-phone-square"></i>
+                    <p class="footer__contactParagraph">817 929 3756</p>
+                </div>
+                <div class="footer__contactInfo">
+                    <i class="fas fa-envelope"></i>
+                    <p class="footer_contactParagraph">contact@com.vn</p>
+                </div>
+            </div>
+            <div class="footer__block">
+                <h6 class="footer__blockTitle">Newsletters</h6>
+                <p class="footer__newsletterParagraph">Sign up for new Genius content updates survays & offers.</p>
+                <form action="email" class="footer__form">
+                    <input type="email" class="footer__emailInput" placeholder="Enter your email">
+                    <button class="footer_emailButton">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+                <p class="footer__newsletterNote">We respect your privacy</p>
+                <ul class="footer__social">
+                    <li class="footer__socialLink">
+                        <i class="fab fa-facebook"></i>
+                    </li>
+                    <li class="footer__socialLink">
+                        <i class="fab fa-twitter-square"></i>
+                    </li>
+                    <li class="footer__socialLink">
+                        <i class="fab fa-google-plus-square"></i>
+                    </li>
+                    <li class="footer__socialLink">
+                        <i class="fab fa-instagram"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- this is the end of the footer however there is a post footer section below -->
+
+    <!-- post footer starts here -->
+
+    <div class="postFooter">
+        <div class="footer__wrapper wrapper">
+            <ul class="postFooter_nav">
+                <li class="postFooter__navLink postFooter__navLink--active">Home</li>
+                <li class="postFooter__navLink postFooter__navLink--active">Pages</li>
+                <li class="postFooter__navLink postFooter__navLink--active">Courses</li>
+                <li class="postFooter__navLink postFooter__navLink--active">News</li>
+                <li class="postFooter__navLink postFooter__navLink--active">Events</li>
+            </ul>
+            <p class="postFooter__copyright">Copyright © 2017</p>
+        </div>
+    </div>
 </body>
 </html>

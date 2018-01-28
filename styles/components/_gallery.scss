@@ -1,0 +1,40 @@
+.gallery {
+    width: 100%;
+    background-color: $color__background--grey;
+    padding: 50px 0;
+    
+    .gallery__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .gallery__imageContainer {
+        width: 32%;
+        position: relative;
+    }
+    
+    .gallery__image {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    
+    .gallery__plus--hover {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        border-radius: 50%;
+        display: none;
+    }
+
+    .gallery__imageContainer:hover .gallery__plus--hover{
+        display: block;
+    }
+
+    .fa-plus-circle {
+        font-size: 50px;
+    }
+}

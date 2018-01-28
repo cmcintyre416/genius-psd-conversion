@@ -1,0 +1,143 @@
+
+// this is the start of the pre header styling
+
+.preHeader {
+    background-color: $color__header--black;
+    color: white;
+    padding: 20px 0;
+    font-size: 1.2rem;
+    font-weight: 300;
+
+    .preHeader__wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .preHeader__contact, .preHeader__logo, .preHeader__signIn {
+        width: 33.3%;
+        display: flex;
+        align-items: center; 
+    }
+
+    .preHeader__contact {
+        justify-content: left;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+    }
+    
+    .preHeader__phone, .preHeader__email {
+        margin-right: 20px;
+        color: $color__global--green;
+    }
+    
+    .preHeader__phoneNumber, .preHeader__emailAdress {
+        margin-left: 5px;
+        color: white;
+    }
+
+    .preHeader__logo {
+        justify-content: center;
+    }
+
+    .preHeader__signIn {
+        justify-content: right;
+    }
+
+    .preHeader__signInLink {
+        color: white;
+        text-decoration: none;
+    }
+
+    .preHeader__divider {
+        margin: 0 10px;
+    }
+
+}
+
+// this is the end of the pre header styling
+
+// this is the start of the hnav header styling
+
+.navHeader {
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+    
+    .navHeader__wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .navHeader__list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        padding: 0;
+    }
+    
+    .navHeader__li {
+        margin: 20px 30px;
+    }
+    
+    .navHeader__link {
+        text-decoration: none;
+        color: $color__font--black;
+    }
+
+    .navHeader__link--green {
+        color: $color__global--green;
+        margin-right: 30px;
+    }
+
+}
+
+// this is the end of the navheader styling
+
+// this is the start of the hero image header
+
+.heroHeader {
+    background-image: url('../assets/image_header.jpg');
+    background-size: cover;
+    color: $color__headerText--black;
+
+    .heroHeader__h1, .heroHeader__paragraph, .heroHeader__button {
+        margin: 20px 0;
+    }
+
+    .heroHeader__wrapper {
+        text-align: center;
+        padding: 300px 0;
+    }
+
+    .heroHeader__h1 {
+        font-size: 7.2rem;
+        font-weight: 900;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        display: block;
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .heroHeader__paragraph {
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+
+    .heroHeader__button {
+        font-size: 1.8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        background-color: $color__global--green;
+        border: none;
+        padding: 20px 25px;
+        color: white;
+    }
+
+}
+
+// this is the end of the header hero section

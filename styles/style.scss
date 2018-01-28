@@ -1,6 +1,5 @@
-@import "partials/header";
-@import "partials/footer";
-
-body {
-    background: red;
-}
+@import "components/normalize";
+@import "components/global";
+@import "components/header";
+@import "components/trending";
+@import "components/gallery";
