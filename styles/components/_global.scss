@@ -24,7 +24,7 @@ body {
 .title {
     text-align: center;
     text-transform: uppercase;
-    padding: 40px 0;
+    padding: 60px 0;
 
     .preTitle, .mainTitle, .magazineIcon {
         margin: 10px 0;
@@ -46,5 +46,11 @@ body {
         border-bottom: 1px solid green;
     }
 
+}
+
+.title__h5 {
+    font-size: 2.4rem;
+    margin: 0;
+    padding: 20px 0;
 }
 

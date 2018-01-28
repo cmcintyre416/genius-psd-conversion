@@ -1,0 +1,72 @@
+.news {
+    padding: 50px 0;
+
+    .news__articleContainer {
+        display: flex;
+        flex-direction: column;
+
+        .news__article {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background: $color__background--grey;
+            margin: 40px 0;
+        }
+
+        .news__imageContainer {
+            width: 45%;
+            position: relative;
+            top: -40px;
+            left: 40px;
+        }
+
+        .news__image {
+            width: 100%;
+        }
+
+        .news__articleContent {
+            width: 50%;
+            padding: 50px 20px;
+            color: $color__font--black;
+        }
+
+        .news__articleInfo {
+            font-size: 1.4rem;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .news__divider {
+            padding: 0 5px;
+        }
+
+        .news__articleDescription {
+            font-size: 1.4rem;
+            padding: 50px 0;
+            margin: 0;
+        }
+        
+        .news__learnMore {
+            font-size: 1.4rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            background-color: #86bc42;
+            border: none;
+            padding: 15px 25px;
+            color: white;
+        }
+        
+        .news__counters {
+            font-family: 'Montserrat', sans-serif;
+            padding: 10px 0;
+        }
+
+        .news__studentCount, .news__commentCount {
+            margin-right: 10px;
+            padding-left: 2px;
+        }
+
+    }
+
+
+}
