@@ -497,29 +497,17 @@
 
         <section class="pricing">
             <div class="pricing__wrapper wrapper">
-                <div class="pricing__title">
-                    <h3 class="pricing__preTitle">Choose your pricing</h3>
-                    <h2 class="pricing__mainTitle">The Best Pricing We Offered</h2>
-                    <img class="pricing__magazineIcon" src="assets/icon_magazine.svg" alt="">
+                <div class="pricing__title title">
+                    <h3 class="pricing__preTitle preTitle">Choose your pricing</h3>
+                    <h2 class="pricing__mainTitle mainTitle">The Best Pricing We Offered</h2>
+                    <img class="pricing__magazineIcon magazineIcon" src="assets/icon_magazine.svg" alt="">
                     <!-- pseudo before and after lines added on svg -->
                 </div>
                 <div class="pricing__optionContainer">
-                    <div class="pricing__priceContainer">
-                        <div class="pricing__priceTag"><span class="pricing__dollarSign">$</span><span class="pricing__number">0</span></div>
-                    </div>
-                    <div class="pricing__priceContainer">
-                        <div class="pricing__priceTag">
-                            <span class="pricing__dollarSign">$</span>
-                            <span class="pricing__number">55</span>
-                        </div>
-                    </div>
-                    <div class="pricing__priceContainer">
-                        <div class="pricing__priceTag">
-                            <span class="pricing__dollarSign">$</span>
-                            <span class="pricing__number">99</span>
-                        </div>
-                    </div>
                     <div class="pricing__option">
+                        <div class="pricing__priceContainer">
+                            <div class="pricing__priceTag"><span class="pricing__dollarSign">$</span><span class="pricing__number">0</span></div>
+                        </div>
                         <h6 class="pricing__trial">Trial</h6>
                         <p class="pricing__description">30 days free trial</p>
                         <ul class="pricing__optionList">
@@ -531,8 +519,15 @@
                             <li class="pricing__optionItem">No Tutorial</li>
                             <li class="pricing__optionItem">Limited Registered User</li>
                         </ul>
+                        <p class="pricing__choose">Choose Plan</p>
                     </div>
-                    <div class="pricing__option">
+                    <div class="pricing__option pricing__option--green">
+                        <div class="pricing__priceContainer pricing__priceContainer--green">
+                            <div class="pricing__priceTag">
+                                <span class="pricing__dollarSign">$</span>
+                                <span class="pricing__number">55</span>
+                            </div>
+                        </div>
                         <h6 class="pricing__trial">Trial</h6>
                         <p class="pricing__description">Per month when paid annually</p>
                         <ul class="pricing__optionList">
@@ -544,8 +539,15 @@
                             <li class="pricing__optionItem">Standard Tutorial</li>
                             <li class="pricing__optionItem">Unlimited Registered User</li>
                         </ul>
+                        <p class="pricing__choose">Choose Plan</p>
                     </div>
                     <div class="pricing__option">
+                        <div class="pricing__priceContainer">
+                            <div class="pricing__priceTag">
+                                <span class="pricing__dollarSign">$</span>
+                                <span class="pricing__number">99</span>
+                            </div>
+                        </div>
                         <h6 class="pricing__trial">Trial</h6>
                         <p class="pricing__description">Per month when paid annually</p>
                         <ul class="pricing__optionList">
@@ -573,46 +575,51 @@
 
     <footer class="footer">
         <div class="footer__wrapper wrapper">
-            <div class="footer__block">
+            <div class="footer__block footer__logoBlock">
                 <img src="assets/logo.svg" alt="" class="footer__logo">
-                <p class="footer_geniusDescription"><span class=".footer__geniusDescription--green">Genius</span>provides broad range of learning programs and activites that's unique in itself.</p>
-                <div class="footer_checklist">
-                    <i class="fas fa-check"></i><span class="footer__checkListItem">Mountain Trekking Programs</span>
+                <p class="footer__geniusDescription"><span class="footer__geniusDescription--green">Genius</span> provides broad range of learning programs and activites that's unique in itself.</p>
+                <div class="footer__checklist">
+                    <i class="fas fa-check"></i><span class="footer__checklistItem">Mountain Trekking Programs</span>
                 </div>
-                <div class="footer_checklist">
+                <div class="footer__checklist">
                     <i class="fas fa-check"></i>
-                    <span class="footer__checkListItem">Inter School Compatitions</span>
+                    <span class="footer__checklistItem">Inter School Compatitions</span>
                 </div>
-                <div class="footer_checklist">
+                <div class="footer__checklist">
                     <i class="fas fa-check"></i>
-                    <span class="footer__checkListItem">Awards and Ceremony</span>
+                    <span class="footer__checklistItem">Awards and Ceremony</span>
                 </div>
             </div>
-            <div class="footer__block">
-                <h6 class="footer_blockTitle">Courses</h6>
+            <div class="footer__block footer__coursesBlock">
+                <h6 class="footer__blockTitle">Courses</h6>
                 <ul class="footer__verticalNav">
                     <li class="footer__navItem">
                         <i class="fas fa-angle-right"></i>
-                        <a href="" class="footer__navLink">Cources</a>
+                        <a href="#" class="footer__navLink">Courses</a>
                     </li>
-                    <li class="footer__verticalNav">
-                        <a href="" class="footer__navLink">Events</a>
+                    <li class="footer__navItem">
+                        <i class="fas fa-angle-right"></i>
+                        <a href="#" class="footer__navLink">Events</a>
                     </li>
-                    <li class="footer__verticalNav">
-                        <a href="" class="footer__navLink">Gallery</a>
+                    <li class="footer__navItem">
+                        <i class="fas fa-angle-right"></i>
+                        <a href="#" class="footer__navLink">Gallery</a>
                     </li>
-                    <li class="footer__verticalNav">
-                        <a href="" class="footer__navLink">FAQs</a>
+                    <li class="footer__navItem">
+                        <i class="fas fa-angle-right"></i>
+                        <a href="#" class="footer__navLink">FAQs</a>
                     </li>
-                    <li class="footer__verticalNav">
-                        <a href="" class="footer__navLink">Blog</a>
+                    <li class="footer__navItem">
+                        <i class="fas fa-angle-right"></i>
+                        <a href="#" class="footer__navLink">Blog</a>
                     </li>
-                    <li class="footer__verticalNav">
-                        <a href="" class="footer__navLink">Contact</a>
+                    <li class="footer__navItem">
+                        <i class="fas fa-angle-right"></i>
+                        <a href="#" class="footer__navLink">Contact</a>
                     </li>
                 </ul>
             </div>
-            <div class="footer__block">
+            <div class="footer__block footer__contactBlock">
                 <h6 class="footer__blockTitle">Contact Us</h6>    
                 <div class="footer__contactInfo">
                     <i class="fas fa-map-marker-alt"></i>
@@ -624,30 +631,30 @@
                 </div>
                 <div class="footer__contactInfo">
                     <i class="fas fa-envelope"></i>
-                    <p class="footer_contactParagraph">contact@com.vn</p>
+                    <p class="footer__contactParagraph">contact@com.vn</p>
                 </div>
             </div>
-            <div class="footer__block">
+            <div class="footer__block footer__newsletterBlock">
                 <h6 class="footer__blockTitle">Newsletters</h6>
                 <p class="footer__newsletterParagraph">Sign up for new Genius content updates survays & offers.</p>
-                <form action="email" class="footer__form">
+                <form action="email" class="footer__form clearfix">
                     <input type="email" class="footer__emailInput" placeholder="Enter your email">
-                    <button class="footer_emailButton">
+                    <button class="footer__emailButton">
                         <i class="fas fa-paper-plane"></i>
                     </button>
                 </form>
                 <p class="footer__newsletterNote">We respect your privacy</p>
                 <ul class="footer__social">
-                    <li class="footer__socialLink">
+                    <li class="footer__socialLink footer__socialLink--blue">
                         <i class="fab fa-facebook"></i>
                     </li>
-                    <li class="footer__socialLink">
+                    <li class="footer__socialLink footer__socialLink--lightBlue">
                         <i class="fab fa-twitter-square"></i>
                     </li>
-                    <li class="footer__socialLink">
+                    <li class="footer__socialLink footer__socialLink--red">
                         <i class="fab fa-google-plus-square"></i>
                     </li>
-                    <li class="footer__socialLink">
+                    <li class="footer__socialLink footer__socialLink--maroon    ">
                         <i class="fab fa-instagram"></i>
                     </li>
                 </ul>
@@ -660,15 +667,15 @@
     <!-- post footer starts here -->
 
     <div class="postFooter">
-        <div class="footer__wrapper wrapper">
-            <ul class="postFooter_nav">
-                <li class="postFooter__navLink postFooter__navLink--active">Home</li>
-                <li class="postFooter__navLink postFooter__navLink--active">Pages</li>
-                <li class="postFooter__navLink postFooter__navLink--active">Courses</li>
-                <li class="postFooter__navLink postFooter__navLink--active">News</li>
-                <li class="postFooter__navLink postFooter__navLink--active">Events</li>
+        <div class="postFooter__wrapper wrapper">
+            <ul class="postFooter__nav">
+                <li class="postFooter__navListItem"><a class="postFooter__navLink postFooter__navLink--active" href="#" >Home</a></li>
+                <li class="postFooter__navListItem"><a class="postFooter__navLink" href="#" >Pages</a></li>
+                <li class="postFooter__navListItem"><a class="postFooter__navLink" href="#" >Courses</a></li>
+                <li class="postFooter__navListItem"><a class="postFooter__navLink" href="#" >News</a></li>
+                <li class="postFooter__navListItem"><a class="postFooter__navLink" href="#" >Events</a></li>
             </ul>
-            <p class="postFooter__copyright">Copyright © 2017</p>
+            <p class="postFooter__copyright">Copyright <span class="postFooter__copyright--green">©</span> 2017</p>
         </div>
     </div>
 </body>

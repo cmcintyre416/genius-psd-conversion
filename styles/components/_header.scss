@@ -102,6 +102,7 @@
 .heroHeader {
     background-image: url('../assets/image_header.jpg');
     background-size: cover;
+    background-position: center;
     color: $color__headerText--black;
 
     .heroHeader__h1, .heroHeader__paragraph, .heroHeader__button {

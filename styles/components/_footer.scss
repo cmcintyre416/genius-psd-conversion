@@ -1,0 +1,260 @@
+.footer {
+    width: 100%;
+    background-color: #252525;
+    color: #f8f9f9;
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding: 50px 0;
+    line-height: 20px;
+
+    .footer__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer__block {
+        width: calc(33.3% - 2%);
+        margin: 0 2%;
+    }
+
+    .footer__blockTitle {
+        font-size: 2.4rem;
+        margin: 0;
+        padding: 5px 0 50px 0;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    // this is the logo block section
+
+    .footer__logoBlock {
+        margin-left: 0;
+        width: calc(40.3% - 1%);
+
+        .footer__geniusDescription {
+            padding: 20px 0;
+        }
+
+        .footer__geniusDescription--green {
+            color: $color__global--green;
+        }
+        
+        .footer__checklist {
+            padding: 10px 0;
+        }
+        
+        .footer__checklist {
+        color: $color__global--green;
+        }
+
+        .footer__checklistItem {
+            padding-left: 10px;
+            color: white;
+        }
+    }
+    
+    // end of logo block section
+    
+  
+    // this is the courses block section
+
+    .footer__coursesBlock {
+        width: calc(26.3% - 2%);
+
+        .footer__verticalNav {
+            margin: 0;
+            padding: 0;
+        }
+
+        .footer__navItem {
+            list-style: none;
+            color: $color__global--green;
+            margin-bottom: 15px;
+        }
+
+        .footer__navLink {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .fa-angle-right {
+            display: none;
+            margin-right: 5px;
+        }
+        
+        .footer__navItem:hover .footer__navLink {
+            color: $color__global--green;
+            transition: 0.5s all;
+        }
+
+        .footer__navItem:hover .fa-angle-right {
+            display: inline-block;
+            transition: 0.5s all;
+        }
+
+    }
+
+    // this is the end of the courses block secvtion
+
+    // this is the start of the contact block section
+
+    .footer__contactBlock {
+        width: calc(33.3% - 2%);
+        margin: 0 2%;
+
+        .footer__contactInfo {
+            margin-bottom: 20px;
+            color: $color__global--green;
+        }
+
+        .fa-map-marker-alt {
+            margin-bottom: 15px;
+        }
+
+        .footer__contactParagraph {
+            display: inline-block;
+            width: 70%;
+            margin: 0;
+            padding-left: 10px;
+            color: white;
+        }
+
+        .footer__contactParagraph:hover {
+            color: $color__global--green;
+        }
+    }
+
+    // this is the end of the contact block section
+
+    // this is the start of the newsletter block section
+
+    .footer__newsletterBlock {
+        margin-right: 0;
+        width: calc(33.3% - 1%);
+    
+        .footer__newsletterParagraph {
+            margin: 0 0 30px 0;
+        }
+
+        .footer__form {
+            width: 100%;
+            margin: 0;
+        }
+
+        .footer__emailInput {
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            width: 80%;
+            float: left;
+            color: #999999;
+        }
+
+        .footer__emailButton {
+            height: 35px;
+            width: calc(20% - 10px);
+            margin-left: 10px;
+            border: none;
+            background-color: $color__global--green;
+            float: left;
+            color: white;
+        }
+
+        .footer__newsletterNote {
+            clear: both;
+            font-size: 1.2rem;
+            color: #999999;
+            padding: 10px 0;
+        }
+
+        .footer__social {
+            padding: 0;
+            display: flex;
+        }
+
+        .footer__socialLink {
+            list-style: none;
+            margin-right: 20px;
+            font-size: 2rem;
+        }
+
+        .footer__socialLink:hover {
+            color: white;
+            transform: scale(1.3);
+            transition: .1s all;
+        }
+
+        .footer__socialLink--blue {
+            color: #3b5999;
+        }
+
+        .footer__socialLink--lightBlue {
+            color: #00aced;
+        }
+
+        .footer__socialLink--red {
+           color: #d34836;
+        }
+
+        .footer__socialLink--maroon{
+            color: #cd486b;
+        }
+
+        
+    }
+
+    // this is the end of the newsletter block dsection
+}
+
+    // this is the start of the post footer section
+
+.postFooter {
+    width: 100%;
+    background-color: $color__header--black;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 30px 0;
+    font-size: 1rem;
+
+    .postFooter__wrapper {
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .postFooter__nav {
+        padding: 0;
+        display: flex;
+        margin: 0;
+
+        .postFooter__navListItem {
+            margin-right: 10px;
+            list-style: none;
+        }
+ 
+        .postFooter__navLink {
+            text-transform: uppercase;
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        
+        .postFooter__navLink--active {
+            color: $color__global--green;
+        }
+
+        .postFooter__navListItem:hover .postFooter__navLink {
+        color: $color__global--green;
+        }
+
+    }
+    
+    .postFooter__copyright {
+        font-size: 1.4rem;
+        margin: 0;
+
+        .postFooter__copyright--green {
+            color: $color__global--green;
+        }
+    }
+
+}

@@ -19,6 +19,7 @@ body {
 .wrapper {
     width: 70%;
     margin: 0 auto;
+    max-width: 1280px;
 }
 
 .title {
@@ -43,7 +44,7 @@ body {
         content: "";
         width: 20px;
         height: 1px;
-        border-bottom: 1px solid green;
+        border-bottom: 1px solid $color__global--green;
     }
 
 }
