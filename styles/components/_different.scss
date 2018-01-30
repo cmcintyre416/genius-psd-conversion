@@ -49,3 +49,27 @@
     }
 
 }
+
+// media queries for different starts here
+
+@media (max-width: 900px) {
+    .different {
+        padding-bottom: 0;
+
+        .different__valueContainer {
+            flex-direction: column;
+            margin-bottom: 0;
+        }
+
+        .different__value {
+            width: 100%;
+            margin-bottom: 100px;
+        }
+
+        .different__circle--absolute {
+            width: 150px;
+            height: 150px;
+            left: -10px;
+        }
+    }
+}

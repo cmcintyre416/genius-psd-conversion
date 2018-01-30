@@ -45,6 +45,7 @@
         
         .footer__checklist {
         color: $color__global--green;
+        display: flex;
         }
 
         .footer__checklistItem {
@@ -257,4 +258,68 @@
         }
     }
 
+}
+
+//  footer media queries start now
+
+@media (max-width: 1560px) {
+    .footer {
+        .footer__contactBlock .fa-map-marker-alt {
+            margin-bottom: 35px;
+        }
+
+        .footer__newsletterBlock .footer__emailButton {
+            width: calc(20% - 5px);
+            margin-left: 5px;
+        }
+
+    }
+}
+
+@media (max-width: 1050px) {
+    .footer {
+        font-size: 1.3rem;
+        
+        .footer__wrapper {
+            flex-wrap: wrap;
+        }
+        
+        .footer__logoBlock {
+            width: calc(40% - 3%);
+            margin-right: 3%;
+        }
+        
+        .footer__coursesBlock, .footer__contactBlock {
+            width: calc(30% - 4%);
+            margin: 0 2%;
+            padding: 5px 0px 0px 10px;
+        }
+
+        .footer__newsletterBlock {
+            width: 100%;
+            margin-top: 50px;
+        }
+
+        .footer__blockTitle {
+            font-size: 2rem;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .footer__coursesBlock {
+        display: none;
+    }
+
+    .footer .footer__contactBlock {
+        width: calc(50% - 4%);
+        padding-left: 50px;
+    }    
+
+    .footer .footer__logoBlock {
+            width: calc(50% - 3%);
+            margin-right: 3%;
+            padding-left: 50px;
+        }
+    
 }

@@ -7,6 +7,7 @@
     padding: 20px 0;
     font-size: 1.2rem;
     font-weight: 300;
+    width: 100%;
 
     .preHeader__wrapper {
         display: flex;
@@ -21,7 +22,7 @@
     }
 
     .preHeader__contact {
-        justify-content: left;
+        justify-content: flex-start;
         font-family: 'Montserrat', sans-serif;
         font-weight: 300;
     }
@@ -41,7 +42,7 @@
     }
 
     .preHeader__signIn {
-        justify-content: right;
+        justify-content: flex-end;
     }
 
     .preHeader__signInLink {
@@ -53,11 +54,61 @@
         margin: 0 10px;
     }
 
+    .preHeader__register:hover .preHeader__signInLink {
+        color: $color__global--green;
+        font-size: 1.4rem;
+        transition: 0.3s all;
+    }
+
+    .preHeader__login:hover .preHeader__signInLink {
+        color: $color__global--green;
+        font-size: 1.4rem;
+        transition: 0.3s all;
+    }
+
 }
+
+// pre header media queries
+
+@media (max-width: 1150px) {
+        
+    .preHeader__contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .preHeader__email {
+        width: 100%;
+    }
+
+    .preHeader__phone {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+    .preHeader .preHeader__contact {
+        display: none;
+    }
+    .preHeader  .preHeader__logo {
+        width: 80%;
+        justify-content: flex-start;
+    }
+
+    .preHeader .preHeader__signIn {
+        width: 30%;
+    }
+
+}
+
+// end of pre header media queries
 
 // this is the end of the pre header styling
 
-// this is the start of the hnav header styling
+// this is the start of the nav header styling
 
 .navHeader {
     background-color: white;
@@ -93,16 +144,43 @@
         margin-right: 30px;
     }
 
+    .navHeader__link:hover {
+        color: $color__global--green;
+        transform: scale(1.2);
+        transition: 0.3s all;
+    }
+
 }
+// this is the nav header media queries
+
+@media (max-width: 1150px) {
+    .navHeader .navHeader__li {
+        margin: 20px 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navHeader__li--flex{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navHeader .navHeader__li {
+        font-size: 1.2rem;
+    }
+}
+
+// end of nav header media queries
 
 // this is the end of the navheader styling
 
 // this is the start of the hero image header
 
 .heroHeader {
-    background-image: url('../assets/image_header.jpg');
+    background: linear-gradient(rgba(55, 55, 55, 0.4), rgba(199, 199, 199, 0.7), rgba(55, 55, 55, 0.4)), url('../assets/image_header.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     color: $color__headerText--black;
 
     .heroHeader__h1, .heroHeader__paragraph, .heroHeader__button {
@@ -139,6 +217,32 @@
         color: white;
     }
 
+    .heroHeader__button:hover {
+        transform: scale(1.05);
+        transition: 0.3s all;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
+    }
+
 }
 
+@media (max-width: 900px) {
+    .heroHeader {
+        background-position: center;
+        padding: 100px 0;
+    }
+
+    .heroHeader .heroHeader__wrapper {
+        padding: 0;
+    }
+
+    .heroHeader .heroHeader__h1 {
+        font-size: 4.5rem;
+        width: 100%;
+    }
+
+}
+
+// this is the start of the hero header media queries
+
 // this is the end of the header hero section
+

@@ -14,6 +14,7 @@ body {
     font-size: 1rem;
     font-family: 'Raleway', sans-serif;
     color: $color__font--black;
+    min-width: 460px;
 }
 
 .wrapper {
@@ -40,12 +41,24 @@ body {
         font-size: 3.5rem;
     }
 
-    .magazineIcon:before {
+    .magazineWrapper:before {
         content: "";
-        width: 20px;
-        height: 1px;
-        border-bottom: 1px solid $color__global--green;
+        display: inline-block;
+        width: 25px;
+        height: 23px;
+        border-top: 2px solid $color__global--green;
+        margin-right: 10px;
     }
+
+    .magazineWrapper:after {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 23px;
+        border-top: 2px solid $color__global--green;
+        margin-left: 10px;
+    }
+
 
 }
 
@@ -55,3 +68,19 @@ body {
     padding: 20px 0;
 }
 
+
+@media (max-width: 750px) {
+    .wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 900px) {
+    .title {
+        padding: 20px 0;
+    }
+
+    .mainTitle {
+    font-size: 3rem;
+    } 
+}

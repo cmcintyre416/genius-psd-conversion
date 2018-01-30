@@ -56,6 +56,12 @@
             padding: 15px 25px;
             color: white;
         }
+
+        .news__learnMore:hover {
+        transform: scale(1.05);
+        transition: 0.3s all;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    }
         
         .news__counters {
             font-family: 'Montserrat', sans-serif;
@@ -70,4 +76,40 @@
     }
 
 
+}
+
+// media queries begin here for the news section
+
+@media (max-width: 1280px) {
+    .news {
+
+        .news__articleContent .news__articleDescription {
+        padding: 20px 0;
+        }
+
+    }    
+}
+
+@media (max-width: 900px) {
+    .news {
+        .news__articleContainer .news__article {
+            flex-direction: column;
+        }
+
+        .news__articleContainer .news__imageContainer {
+            width: 100%;
+            position: static;
+        }
+
+        .news__articleContainer .news__articleContent {
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+
+            .news__articleTitle {
+                text-align: center;
+            }
+        }
+
+    }
 }

@@ -23,16 +23,16 @@
             <div class="preHeader__wrapper wrapper">
                 <div class="preHeader__contact">
                     <div class="preHeader__phone">
-                        <i class="fas fa-phone"></i>
+                        <i class="fas fa-phone" aria-hidden="true"></i>
                         <span class="preHeader__phoneNumber">(541) 754-3010</span>
                     </div>
                     <div class="preHeader__email">
-                        <i class="far fa-envelope"></i>
+                        <i class="far fa-envelope" aria-hidden="true"></i>
                         <span class="preHeader__emailAdress">contact@com.vn</span>
                     </div>
                 </div>
                 <div class="preHeader__logo">
-                    <img src="assets/logo.svg" alt="">
+                    <img src="assets/logo.png" alt="">
                 </div>
                 <div class="preHeader__signIn">
                     <span class="preHeader__register"><a class="preHeader__signInLink" href="#">Register</a></span><span class="preHeader__divider">|</span><span class="preHeader__login"><a class="preHeader__signInLink" href="#">Login</a></span>
@@ -49,7 +49,7 @@
                         <a class="navHeader__link" href="">Pages</a>
                     </li>
                     <li class="navHeader__li">
-                        <a class="navHeader__link" href="">Cources</a>
+                        <a class="navHeader__link" href="">Courses</a>
                     </li>
                     <li class="navHeader__li">
                         <a class="navHeader__link" href="">Features</a>
@@ -60,9 +60,9 @@
                     <li class="navHeader__li">
                         <a class="navHeader__link" href="">Events</a>
                     </li>
-                    <li class="navHeader__li ">
-                        <a class="navHeader__link navHeader__link--green" href=""><i class="fas fa-shopping-cart"></i></a>
-                        <a class="navHeader__link" href=""><i class="fas fa-search"></i></a>
+                    <li class="navHeader__li navHeader__li--flex">
+                        <a class="navHeader__link  navHeader__link--green" href=""><i class="fas fa-shopping-cart"></i></a>
+                        <a class="navHeader__link navHeader__link--serach" href=""><i class="fas fa-search"></i></a>
                     </li>
                 </ul>
             </div>
@@ -89,7 +89,7 @@
                 <div class="trending__title title">
                     <h3 class="trending__preTitle preTitle">Touch them if you want</h3>
                     <h2 class="trending__mainTitle mainTitle">Trending Courses</h2>
-                    <img class="trending__magazineIcon magazineIcon" src="assets/icon_magazine.svg" alt="">
+                    <div class="magazineWrapper"><img class="trending__magazineIcon magazineIcon" src="assets/icon_magazine.svg" alt="magazine icon"></div>
                     <!-- pseudo before and after lines added on svg -->
                 </div>
                 <nav class="trending__nav">
@@ -116,7 +116,7 @@
                 </nav>
                 <div class="trending__courses">
                     <div class="trending__course">
-                        <img src="assets/image_bartender.jpg" alt="" class="trending__categoryImage">
+                        <img src="assets/image_bartender.jpg" alt="person reading book on dock" class="trending__categoryImage">
                         <div class="trending__categoryContent">
                             <h4 class="trending__categoryTitle">Course in Expert bartender and modern cocktail</h4>
                             <div class="trending__teacher">
@@ -128,9 +128,9 @@
                             </div>
                             <div class="trending__courseFooter">
                                 <div class="trending__counters">
-                                    <i class="fas fa-users"></i>
+                                    <i class="fas fa-users" aria-hidden="true"></i>
                                     <span class="trending__studentCount">75</span>
-                                    <i class="fas fa-comments"></i>
+                                    <i class="fas fa-comments" aria-hidden="true"></i>
                                     <span class="trending__commentCount">24</span>
                                 </div>
                                 <span class="trending__price">Free</span>
@@ -138,7 +138,7 @@
                         </div>
                     </div>
                     <div class="trending__course">
-                        <img src="assets/image_fashionStyling.jpg" alt="" class="trending__categoryImage">
+                        <img src="assets/image_fashionStyling.jpg" alt="person looking for book in library" class="trending__categoryImage">
                         <div class="trending__categoryContent">
                             <h4 class="trending__categoryTitle">Fashion Styling and Photography course</h4>
                             <div class="trending__teacher">
@@ -162,7 +162,7 @@
                         </div>
                     </div>
                     <div class="trending__course">
-                        <img src="assets/image_management.jpg" alt="" class="trending__categoryImage">
+                        <img src="assets/image_management.jpg" alt="person writing" class="trending__categoryImage">
                         <div class="trending__categoryContent">
                             <h4 class="trending__categoryTitle">Management Development Program</h4>
                             <div class="trending__teacher">
@@ -176,7 +176,7 @@
                             </div>
                             <div class="trending__courseFooter">
                                 <div class="trending__counters">
-                                    <i class="fas fa-users"></i>
+                                    <i class="fas fa-users" aria-hidden="true"></i>
                                     <span class="trending__studentCount">75</span>
                                     <i class="fas fa-comments"></i>
                                     <span class="trending__commentCount">24</span>
@@ -186,7 +186,7 @@
                         </div>
                     </div>
                     <div class="trending__course">
-                        <img src="assets/image_english.jpg" alt="" class="trending__categoryImage">
+                        <img src="assets/image_english.jpg" alt="person reading newspaper" class="trending__categoryImage">
                         <div class="trending__categoryContent">
                             <h4 class="trending__categoryTitle">Learn English with web-sites</h4>
                             <div class="trending__teacher">
@@ -202,7 +202,7 @@
                                 <div class="trending__counters">
                                     <i class="fas fa-users"></i>
                                     <span class="trending__studentCount">75</span>
-                                    <i class="fas fa-comments"></i>
+                                    <i class="fas fa-comments" aria-hidden="true"></i>
                                     <span class="trending__commentCount">24</span>
                                 </div>
                                 <span class="trending__price">Free</span>
@@ -210,7 +210,7 @@
                         </div>
                     </div>
                     <div class="trending__course">
-                        <img src="assets/image_graphicDesign.jpg" alt="" class="trending__categoryImage">
+                        <img src="assets/image_graphicDesign.jpg" alt="person drawing" class="trending__categoryImage">
                         <div class="trending__categoryContent">
                             <h4 class="trending__categoryTitle">Digital Graphic Design Fundamentals</h4>
                             <div class="trending__teacher">
@@ -224,9 +224,9 @@
                             </div>
                             <div class="trending__courseFooter">
                                 <div class="trending__counters">
-                                    <i class="fas fa-users"></i>
+                                    <i class="fas fa-users" aria-hidden="true"></i>
                                     <span class="trending__studentCount">75</span>
-                                    <i class="fas fa-comments"></i>
+                                    <i class="fas fa-comments" aria-hidden="true"></i>
                                     <span class="trending__commentCount">24</span>
                                 </div>
                                 <span class="trending__price">Free</span>
@@ -234,7 +234,7 @@
                         </div>
                     </div>
                     <div class="trending__course">
-                        <img src="assets/image_fashionLuxury.jpg" alt="" class="trending__categoryImage">
+                        <img src="assets/image_fashionLuxury.jpg" alt="person reading in bed" class="trending__categoryImage">
                         <div class="trending__categoryContent">
                             <h4 class="trending__categoryTitle">Fashion & Luxury Goods Management Course</h4>
                             <div class="trending__teacher">
@@ -248,9 +248,9 @@
                             </div>
                             <div class="trending__courseFooter">
                                 <div class="trending__counters">
-                                    <i class="fas fa-users"></i>
+                                    <i class="fas fa-users" aria-hidden="true"></i>
                                     <span class="trending__studentCount">75</span>
-                                    <i class="fas fa-comments"></i>
+                                    <i class="fas fa-comments" aria-hidden="true"></i>
                                     <span class="trending__commentCount">24</span>
                                 </div>
                                 <span class="trending__price">Free</span>
@@ -258,7 +258,7 @@
                         </div>
                     </div>
                     <div class="trending__course">
-                        <img src="assets/image_emails.jpg" alt="" class="trending__categoryImage">
+                        <img src="assets/image_emails.jpg" alt="person answering emails" class="trending__categoryImage">
                         <div class="trending__categoryContent">
                             <h4 class="trending__categoryTitle">Write Professional Emails in English</h4>
                             <div class="trending__teacher">
@@ -272,9 +272,9 @@
                             </div>
                             <div class="trending__courseFooter">
                                 <div class="trending__counters">
-                                    <i class="fas fa-users"></i>
+                                    <i class="fas fa-users" aria-hidden="true"></i>
                                     <span class="trending__studentCount">75</span>
-                                    <i class="fas fa-comments"></i>
+                                    <i class="fas fa-comments" aria-hidden="true"></i>
                                     <span class="trending__commentCount">24</span>
                                 </div>
                                 <span class="trending__price">Free</span>
@@ -282,9 +282,9 @@
                         </div>
                     </div>
                     <div class="trending__course">
-                        <img src="assets/image_digitalAcceleration.jpg" alt="" class="trending__categoryImage">
+                        <img src="assets/image_digitalAcceleration.jpg" alt="person drawing" class="trending__categoryImage">
                         <div class="trending__categoryContent">
-                            <h4 class="trending__categoryTitle">Master CLass - Digital Acceleration Course</h4>
+                            <h4 class="trending__categoryTitle">Master Class - Digital Acceleration Course</h4>
                             <div class="trending__teacher">
                                 <div class="trending__teacherImage"></div>
                                 <div class="trending__teacherInfo">
@@ -296,9 +296,9 @@
                             </div>
                             <div class="trending__courseFooter">
                                 <div class="trending__counters">
-                                    <i class="fas fa-users"></i>
+                                    <i class="fas fa-users" aria-hidden="true"></i>
                                     <span class="trending__studentCount">75</span>
-                                    <i class="fas fa-comments"></i>
+                                    <i class="fas fa-comments" aria-hidden="true"></i>
                                     <span class="trending__commentCount">24</span>
                                 </div>
                                 <span class="trending__price">Free</span>
@@ -318,42 +318,46 @@
                 <div class="gallery__title title">
                     <h3 class="gallery__preTitle preTitle">Lorem Ipsum Dolor</h3>
                     <h2 class="gallery__mainTitle mainTitle">See Photo Gallery</h2>
-                    <img class="gallery__magazineIcon magazineIcon" src="assets/icon_magazine.svg" alt="">
+                    <div class="magazineWrapper">
+                        <img class="gallery__magazineIcon magazineIcon" src="assets/icon_magazine.svg" alt="magazine icon">
+                    </div>
                     <!-- pseudo before and after lines added on svg -->
                 </div>
                 <div class="gallery__container">
                     <div class="gallery__imageContainer">
+                        <div class="gallery__arrow--before"><i class="fas fa-arrow-circle-left" aria-hidden="true"></i></div>
                         <img src="assets/image_coffee.jpg" alt="Coffee cup sittiing on desk" class="gallery__image">
-                        <div class="gallery__plus--hover"><i class="fas fa-plus-circle"></i></div>
+                        <div class="gallery__plus--hover"><i class="fas fa-plus-circle" aria-hidden="true"></i></div>
+                        <div class="gallery__arrow--after"><i class="fas fa-arrow-circle-right" aria-hidden="true"></i></div>
                     </div>
-                    <div class="gallery__imageContainer">
+                    <div class="gallery__imageContainer gallery__imageContainer--mobile">
                         <img src="assets/image_paint.jpg" alt="Paint and paint brushes." class="gallery__image">
                         <div class="gallery__plus--hover">
-                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-plus-circle" aria-hidden="true"></i>
                         </div>
                     </div>
-                    <div class="gallery__imageContainer">
+                    <div class="gallery__imageContainer gallery__imageContainer--mobile">
                         <img src="assets/image_notes.jpg" alt="Field notes, phone and pens." class="gallery__image">
                         <div class="gallery__plus--hover">
-                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-plus-circle" aria-hidden="true"></i>
                         </div>
                     </div>
-                    <div class="gallery__imageContainer">
+                    <div class="gallery__imageContainer gallery__imageContainer--mobile">
                         <img src="assets/image_stickies.jpg" alt="Stickie notes sitting on desk." class="gallery__image">
                         <div class="gallery__plus--hover">
-                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-plus-circle" aria-hidden="true"></i>
                         </div>
                     </div>
-                    <div class="gallery__imageContainer">
+                    <div class="gallery__imageContainer gallery__imageContainer--mobile">
                         <img src="assets/image_workstation.jpg" alt="Workstation with computer and keyboard." class="gallery__image">
                         <div class="gallery__plus--hover">
-                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-plus-circle" aria-hidden="true"></i>
                         </div>
                     </div>
-                    <div class="gallery__imageContainer">
+                    <div class="gallery__imageContainer gallery__imageContainer--mobile">
                         <img src="assets/image_folder.jpg" alt="Folders and writing utencils." class="gallery__image">
                         <div class="gallery__plus--hover">
-                            <i class="fas fa-plus-circle"></i>
+                            <i class="fas fa-plus-circle" aria-hidden="true"></i>
                         </div>
                     </div>
                 </div>
@@ -369,7 +373,9 @@
                 <div class="news__title title">
                     <h3 class="news__preTitle preTitle">Lorem Ipsum Dolor</h3>
                     <h2 class="news__mainTitle mainTitle">Latest News</h2>
-                    <img class="news__magazineIcon magazineIcon" src="assets/icon_magazine.svg" alt="">
+                    <div class="magazineWrapper">
+                        <img class="news__magazineIcon magazineIcon" src="assets/icon_magazine.svg" alt="magazine icon">
+                    </div>
                     <!-- pseudo before and after lines added on svg -->
                 </div>
                 <div class="news__articleContainer">
@@ -383,12 +389,12 @@
                                 <span class="news__author">By admin</span><span class="news__divider">|</span> <span class="news__date">Oct 11, 2017</span>
                             </div>
                             <div class="news__counters">
-                                <i class="fas fa-user"></i>
+                                <i class="fas fa-user" aria-hidden="true"></i>
                                 <span class="news__studentCount">73</span>
-                                <i class="far fa-comments"></i>
+                                <i class="far fa-comments" aria-hidden="true"></i>
                                 <span class="news__commentCount">0</span>
                             </div>
-                            <p class="news__articleDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ea nisi recusandae, possimus similique voluptatem explicabo veniam itaque a aperiam officiis at fugiat! Veniam pariatur deserunt, expedita ratione sint natus tenetur nam ullam cupiditate dolore debitis voluptatem adipisci magnam sequi similique, quo, veritatis quia! Magni assumenda alias nesciunt voluptates vel quidem, id earum esse neque natus beatae rerum sit officia repudiandae minima amet reiciendis suscipit quis impedit ipsa dolor consequatur?</p>
+                            <p class="news__articleDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ea nisi recusandae, possimus similique voluptatem explicabo veniam itaque a aperiam officiis at fugiat! Veniam pariatur deserunt, expedita ratione sint natus tenetur nam ullam cupiditate dolore debitis voluptatem adipisci magnam sequi similique, quo, veritatis quia!</p>
                             <button class="news__learnMore">Learn More</button>
                         </div>
                     </div>
@@ -406,16 +412,14 @@
                                 <span class="news__date">Oct 11, 2017</span>
                             </div>
                             <div class="news__counters">
-                                <i class="fas fa-user"></i>
+                                <i class="fas fa-user" aria-hidden="true"></i>
                                 <span class="news__studentCount">73</span>
-                                <i class="far fa-comments"></i>
+                                <i class="far fa-comments" aria-hidden="true"></i>
                                 <span class="news__commentCount">0</span>
                             </div>
                             <p class="news__articleDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ea nisi recusandae, possimus similique voluptatem
-                                explicabo veniam itaque a aperiam officiis at fugiat! Veniam pariatur deserunt, expedita ratione sint natus
-                                tenetur nam ullam cupiditate dolore debitis voluptatem adipisci magnam sequi similique, quo, veritatis quia!
-                                Magni assumenda alias nesciunt voluptates vel quidem, id earum esse neque natus beatae rerum sit officia
-                                repudiandae minima amet reiciendis suscipit quis impedit ipsa dolor consequatur?</p>
+                            explicabo veniam itaque a aperiam officiis at fugiat! Veniam pariatur deserunt, expedita ratione sint natus
+                            tenetur nam ullam cupiditate dolore debitis voluptatem adipisci magnam sequi similique, quo, veritatis quia!</p>
                             <button class="news__learnMore">Learn More</button>
                         </div>
                     </div>
@@ -433,16 +437,15 @@
                                 <span class="news__date">Oct 11, 2017</span>
                             </div>
                             <div class="news__counters">
-                                <i class="fas fa-user"></i>
+                                <i class="fas fa-user" aria-hidden="true"></i>
                                 <span class="news__studentCount">73</span>
-                                <i class="far fa-comments"></i>
+                                <i class="far fa-comments" aria-hidden="true"></i>
                                 <span class="news__commentCount">0</span>
                             </div>
                             <p class="news__articleDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ea nisi recusandae, possimus similique voluptatem
-                                explicabo veniam itaque a aperiam officiis at fugiat! Veniam pariatur deserunt, expedita ratione sint natus
-                                tenetur nam ullam cupiditate dolore debitis voluptatem adipisci magnam sequi similique, quo, veritatis quia!
-                                Magni assumenda alias nesciunt voluptates vel quidem, id earum esse neque natus beatae rerum sit officia
-                                repudiandae minima amet reiciendis suscipit quis impedit ipsa dolor consequatur?</p>
+                            explicabo veniam itaque a aperiam officiis at fugiat! Veniam pariatur deserunt, expedita ratione sint natus
+                            tenetur nam ullam cupiditate dolore debitis voluptatem adipisci magnam sequi similique, quo, veritatis quia!
+                            </p>
                             <button class="news__learnMore">Learn More</button>
                         </div>
                     </div>
@@ -459,13 +462,15 @@
                 <div class="different__title title">
                     <h3 class="different__preTitle preTitle">Lorem Ipsum Dolor</h3>
                     <h2 class="different__mainTitle mainTitle">What Makes Us Different?</h2>
-                    <img class="different__magazineIcon magazineIcon" src="assets/icon_magazine.svg" alt="">
+                    <div class="magazineWrapper">
+                        <img class="different__magazineIcon magazineIcon" src="assets/icon_magazine.svg" alt="magazine icon">
+                    </div>
                     <!-- pseudo before and after lines added on svg -->
                 </div>
                 <div class="different__valueContainer">
                     <div class="different__value">
                         <div class="different__circle--absolute"></div>
-                        <img src="assets/icon_light.svg" alt="" class="different__icon">
+                        <img src="assets/icon_light.svg" alt="light icon" class="different__icon">
                         <div class="different__valueDescription">
                             <h6 class="different__valueName">Concept</h6>
                             <p class="different__valueParagraph">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been. Lorem ipsum has been.</p>
@@ -473,7 +478,7 @@
                     </div>
                     <div class="different__value">
                         <div class="different__circle--absolute"></div>
-                        <img src="assets/icon_beaker.svg" alt="" class="different__icon">
+                        <img src="assets/icon_beaker.svg" alt="beaker icon" class="different__icon">
                         <div class="different__valueDescription">
                             <h6 class="different__valueName">Experience</h6>
                             <p class="different__valueParagraph">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been. Lorem ipsum has been.</p>
@@ -481,7 +486,7 @@
                     </div>
                     <div class="different__value">
                         <div class="different__circle--absolute"></div>
-                        <img src="assets/icon_certified.svg" alt="" class="different__icon">
+                        <img src="assets/icon_certified.svg" alt="certified icon" class="different__icon">
                         <div class="different__valueDescription">
                             <h6 class="different__valueName">Design</h6>
                             <p class="different__valueParagraph">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been. Lorem ipsum has been.</p>
@@ -500,7 +505,9 @@
                 <div class="pricing__title title">
                     <h3 class="pricing__preTitle preTitle">Choose your pricing</h3>
                     <h2 class="pricing__mainTitle mainTitle">The Best Pricing We Offered</h2>
-                    <img class="pricing__magazineIcon magazineIcon" src="assets/icon_magazine.svg" alt="">
+                    <div class="magazineWrapper">
+                        <img class="pricing__magazineIcon magazineIcon" src="assets/icon_magazine.svg" alt="magazine icon">
+                    </div>
                     <!-- pseudo before and after lines added on svg -->
                 </div>
                 <div class="pricing__optionContainer">
@@ -519,7 +526,7 @@
                             <li class="pricing__optionItem">No Tutorial</li>
                             <li class="pricing__optionItem">Limited Registered User</li>
                         </ul>
-                        <p class="pricing__choose">Choose Plan</p>
+                        <p class="pricing__choose pricing__choose--green">Choose Plan</p>
                     </div>
                     <div class="pricing__option pricing__option--green">
                         <div class="pricing__priceContainer pricing__priceContainer--green">
@@ -539,7 +546,7 @@
                             <li class="pricing__optionItem">Standard Tutorial</li>
                             <li class="pricing__optionItem">Unlimited Registered User</li>
                         </ul>
-                        <p class="pricing__choose">Choose Plan</p>
+                        <p class="pricing__choose pricing__choose--black">Choose Plan</p>
                     </div>
                     <div class="pricing__option">
                         <div class="pricing__priceContainer">
@@ -559,7 +566,7 @@
                             <li class="pricing__optionItem">Unlimited Registered Tutorials</li>
                             <li class="pricing__optionItem">Unlimited Registered User</li>
                         </ul>
-                        <p class="pricing__choose">Choose Plan</p>
+                        <p class="pricing__choose pricing__choose--green">Choose Plan</p>
                     </div>
                 </div>
             </div>
@@ -576,17 +583,17 @@
     <footer class="footer">
         <div class="footer__wrapper wrapper">
             <div class="footer__block footer__logoBlock">
-                <img src="assets/logo.svg" alt="" class="footer__logo">
+                <img src="assets/logo.png" alt="genius logo" class="footer__logo">
                 <p class="footer__geniusDescription"><span class="footer__geniusDescription--green">Genius</span> provides broad range of learning programs and activites that's unique in itself.</p>
                 <div class="footer__checklist">
-                    <i class="fas fa-check"></i><span class="footer__checklistItem">Mountain Trekking Programs</span>
+                    <i class="fas fa-check" aria-hidden="true"></i><span class="footer__checklistItem">Mountain Trekking Programs</span>
                 </div>
                 <div class="footer__checklist">
-                    <i class="fas fa-check"></i>
+                    <i class="fas fa-check" aria-hidden="true"></i>
                     <span class="footer__checklistItem">Inter School Compatitions</span>
                 </div>
                 <div class="footer__checklist">
-                    <i class="fas fa-check"></i>
+                    <i class="fas fa-check" aria-hidden="true"></i>
                     <span class="footer__checklistItem">Awards and Ceremony</span>
                 </div>
             </div>
@@ -594,19 +601,19 @@
                 <h6 class="footer__blockTitle">Courses</h6>
                 <ul class="footer__verticalNav">
                     <li class="footer__navItem">
-                        <i class="fas fa-angle-right"></i>
+                        <i class="fas fa-angle-right" aria-hidden="true"></i>
                         <a href="#" class="footer__navLink">Courses</a>
                     </li>
                     <li class="footer__navItem">
-                        <i class="fas fa-angle-right"></i>
+                        <i class="fas fa-angle-right" aria-hidden="true"></i>
                         <a href="#" class="footer__navLink">Events</a>
                     </li>
                     <li class="footer__navItem">
-                        <i class="fas fa-angle-right"></i>
+                        <i class="fas fa-angle-right" aria-hidden="true"></i>
                         <a href="#" class="footer__navLink">Gallery</a>
                     </li>
                     <li class="footer__navItem">
-                        <i class="fas fa-angle-right"></i>
+                        <i class="fas fa-angle-right" aria-hidden="true"></i>
                         <a href="#" class="footer__navLink">FAQs</a>
                     </li>
                     <li class="footer__navItem">
@@ -614,7 +621,7 @@
                         <a href="#" class="footer__navLink">Blog</a>
                     </li>
                     <li class="footer__navItem">
-                        <i class="fas fa-angle-right"></i>
+                        <i class="fas fa-angle-right" aria-hidden="true"></i>
                         <a href="#" class="footer__navLink">Contact</a>
                     </li>
                 </ul>
@@ -622,15 +629,15 @@
             <div class="footer__block footer__contactBlock">
                 <h6 class="footer__blockTitle">Contact Us</h6>    
                 <div class="footer__contactInfo">
-                    <i class="fas fa-map-marker-alt"></i>
+                    <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
                     <p class="footer__contactParagraph">Hawkins DDR 873 Drake APA 159 Yosemite AD 19</p>
                 </div>
                 <div class="footer__contactInfo">
-                    <i class="fas fa-phone-square"></i>
+                    <i class="fas fa-phone-square" aria-hidden="true"></i>
                     <p class="footer__contactParagraph">817 929 3756</p>
                 </div>
                 <div class="footer__contactInfo">
-                    <i class="fas fa-envelope"></i>
+                    <i class="fas fa-envelope" aria-hidden="true"></i>
                     <p class="footer__contactParagraph">contact@com.vn</p>
                 </div>
             </div>
@@ -640,22 +647,22 @@
                 <form action="email" class="footer__form clearfix">
                     <input type="email" class="footer__emailInput" placeholder="Enter your email">
                     <button class="footer__emailButton">
-                        <i class="fas fa-paper-plane"></i>
+                        <i class="fas fa-paper-plane" aria-hidden="true"></i>
                     </button>
                 </form>
                 <p class="footer__newsletterNote">We respect your privacy</p>
                 <ul class="footer__social">
                     <li class="footer__socialLink footer__socialLink--blue">
-                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-facebook" aria-hidden="true"></i>
                     </li>
                     <li class="footer__socialLink footer__socialLink--lightBlue">
-                        <i class="fab fa-twitter-square"></i>
+                        <i class="fab fa-twitter-square" aria-hidden="true"></i>
                     </li>
                     <li class="footer__socialLink footer__socialLink--red">
-                        <i class="fab fa-google-plus-square"></i>
+                        <i class="fab fa-google-plus-square" aria-hidden="true"></i>
                     </li>
                     <li class="footer__socialLink footer__socialLink--maroon    ">
-                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
                     </li>
                 </ul>
             </div>
