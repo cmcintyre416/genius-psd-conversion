@@ -331,24 +331,18 @@ body {
   .navHeader .navHeader__li {
     margin: 20px 10px; } }
 
-@media (max-width: 576px) {
-  .navHeader__li--flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between; }
-  .navHeader .navHeader__li {
-    font-size: 1.2rem; } }
-
-@media (max-width: 450px) {
+@media (max-width: 650px) {
   .navHeader__li {
     display: none; }
   .navHeader .navHeader__hamburger {
     display: block;
     font-size: 3rem;
-    padding: 10px 0; } }
+    padding: 10px 0; }
+  .navHeader:hover .navHeader__hamburger {
+    color: #86bc42;
+    -webkit-transition: .3s all;
+    -o-transition: .3s all;
+    transition: .3s all; } }
 
 .heroHeader {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(55, 55, 55, 0.4)), color-stop(rgba(199, 199, 199, 0.7)), to(rgba(55, 55, 55, 0.4))), url("../assets/image_header.jpg");

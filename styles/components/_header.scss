@@ -163,29 +163,34 @@
     }
 }
 
-@media (max-width: 576px) {
-    .navHeader__li--flex{
-        display: flex;
-        justify-content: space-between;
-    }
 
-    .navHeader .navHeader__li {
-        font-size: 1.2rem;
-    }
-}
-
-@media (max-width : 450px) {
+@media (max-width : 650px) {
     .navHeader__li {
         display: none;
     }
-
+    
     .navHeader .navHeader__hamburger {
         display: block;
         font-size: 3rem;
         padding: 10px 0;
     }
+    
+    .navHeader:hover .navHeader__hamburger{
+        color: $color__global--green;
+        transition: .3s all;
+    }
 }
 
+// @media (max-width: 576px) {
+//     .navHeader__li--flex{
+//         display: flex;
+//         justify-content: space-between;
+//     }
+
+//     .navHeader .navHeader__li {
+//         font-size: 1.2rem;
+//     }
+// }
 
 // end of nav header media queries
 
