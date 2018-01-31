@@ -129,6 +129,10 @@
         list-style: none;
         padding: 0;
     }
+
+    .navHeader__hamburger {
+        display: none;
+    }
     
     .navHeader__li {
         margin: 20px 30px;
@@ -169,6 +173,19 @@
         font-size: 1.2rem;
     }
 }
+
+@media (max-width : 450px) {
+    .navHeader__li {
+        display: none;
+    }
+
+    .navHeader .navHeader__hamburger {
+        display: block;
+        font-size: 3rem;
+        padding: 10px 0;
+    }
+}
+
 
 // end of nav header media queries
 
@@ -241,6 +258,9 @@
     }
 
 }
+
+
+
 
 // this is the start of the hero header media queries
 

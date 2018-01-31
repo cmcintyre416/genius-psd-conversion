@@ -323,3 +323,25 @@
         }
     
 }
+
+@media (max-width : 450px) {
+    
+    .footer .footer__contactBlock {
+        width: calc(50% - 4%);
+        padding-left: 0px;
+    }    
+
+    .footer .footer__logoBlock {
+            width: calc(50% - 3%);
+            margin-right: 3%;
+            padding-left: 0px;
+        }
+    
+    .postFooter .postFooter__nav {
+        display: none;
+    }
+
+    .postFooter .postFooter__wrapper {
+        justify-content: flex-end;
+    }
+}

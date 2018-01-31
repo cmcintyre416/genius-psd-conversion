@@ -14,7 +14,6 @@ body {
     font-size: 1rem;
     font-family: 'Raleway', sans-serif;
     color: $color__font--black;
-    min-width: 460px;
 }
 
 .wrapper {
@@ -83,4 +82,11 @@ body {
     .mainTitle {
     font-size: 3rem;
     } 
+}
+
+@media (max-width : 450px) {
+
+    .wrapper {
+        width: 90%;
+    }
 }
